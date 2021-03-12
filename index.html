@@ -7,6 +7,15 @@
     /* CSS or Cascading Style Sheets */
     body {
         font-family: sans-serif;
+        background: #233a60;
+    }
+    #main {
+        width: 90%;
+        max-width: 800px;
+        text-align: left;
+        margin: 0 auto;
+        background: #fff;
+        padding: 2rem;
     }
     img {
         width: 100%;
@@ -17,22 +26,27 @@
 </head>
 
 <body>
-    <h1>Rovers</h1>
+    <section id="main">
+        <h1>Rovers</h1>
 
-    <section id="past-mars-missions">
-        <h2>Past Mars Missions</h2>
-        <h3>Soujourner</h3>
-        <p><em>Some details about this mission</em></p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sojourner_on_Mars_PIA01122.jpg/1024px-Sojourner_on_Mars_PIA01122.jpg">
+        <section id="past-mars-missions">
+            <h2>Past Mars Missions</h2>
+            <section id="soujourner">
+                <h3>Soujourner</h3>
+                <p><em>Some details about this mission</em></p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sojourner_on_Mars_PIA01122.jpg/1024px-Sojourner_on_Mars_PIA01122.jpg">
+            </section>
+        </section>
+
+        <section id="past-mars-missions">
+            <h2>Current Mars Missions</h2>
+            <section id="perseverance">
+                <h3>Perseverance</h3>
+                <p><em>Some details about this mission</em></p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Curiosity_at_Work_on_Mars_%28Artist%27s_Concept%29.jpg/1920px-Curiosity_at_Work_on_Mars_%28Artist%27s_Concept%29.jpg">
+            </section>
+        </section>
     </section>
-
-    <section id="past-mars-missions">
-        <h2>Current Mars Missions</h2>
-        <h3>Perseverance</h3>
-        <p><em>Some details about this mission</em></p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Curiosity_at_Work_on_Mars_%28Artist%27s_Concept%29.jpg/1920px-Curiosity_at_Work_on_Mars_%28Artist%27s_Concept%29.jpg">
-    </section>
-
 
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.1/dist/alpine.min.js" defer></script>
 </body>
