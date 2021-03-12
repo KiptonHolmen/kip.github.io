@@ -6,5 +6,3 @@
 - is
 - a
 - bulleted list
-
-[My dad's website](https://benholmen.com/)
