@@ -1,6 +1,6 @@
-# REALLY BIG TEXT
-## SOMEWHAT SMALLER TEXT
-### This is almost normal text
+# Website Policies
+## Security
+### If you find any bugs, please rerport them to [kipton.github@outlook.com](mailto:kipton.github@outlook.com). No bounty will be given. 
 
 - this
 - is
